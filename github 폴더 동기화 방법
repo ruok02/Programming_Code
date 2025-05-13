@@ -1,10 +1,11 @@
 git bash 사용 명령어
 
 $ cd "C:\Users\Min\Desktop\Programming_Code" <- desktop
+$ cd (노트북 위치 저장하기)
 
 -> 디렉토리 위치 가기 (main)
 
-
+              <main 가능>
 동기화 과정: 1. git add . -> 2. git commit -m " (작업 내용 설명) " -> 3. git push origin main
 
 변경 사항 추가 (Add): 작업한 내용을 Git에 알립니다.
@@ -35,6 +36,8 @@ git pull origin main
 
 예시 상황)
 1. 데스크탑에서 코드를 작성하거나 수정합니다.
+하기 전에 git pull origin main 사용하여 ESC 누른뒤에 :wq! 사용(linux에서 배운 vi 편집기 강제 저장 종료인데 정확한 방법인지는 모름)
+(이 작업을 하기전에 main 파일에 있어야함 위의 디렉토리 main 위치로 가야함)
 git add . : 변경된 파일들을 스테이징합니다.
 git commit -m "작업 내용 설명" : 변경 사항을 로컬 리포지토리에 기록합니다.
 git push origin main : 로컬 커밋을 원격 GitHub 리포지토리로 업로드합니다.

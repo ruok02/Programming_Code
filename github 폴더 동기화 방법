@@ -1,7 +1,7 @@
 git bash 사용 명령어
 
-$ cd "C:\Users\Min\Desktop\Programming_Code" <- desktop
-$ cd (노트북 위치 저장하기)
+$ cd "C:\Users\Min\Desktop\Programming_Code" <- desktop 수정필요
+$ cd "C:\Users\Min\Desktop\Programming_Code"
 
 -> 디렉토리 위치 가기 (main)
 
